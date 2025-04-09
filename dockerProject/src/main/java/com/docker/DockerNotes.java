@@ -1,5 +1,62 @@
 //Docker
 //
+//
+//
+//1.install docker
+//2.install wsl
+//3.check virtualization is enabled
+//
+//4.docker -v
+//5.docker run hello-world (download from docker hub)
+//6.docker images (check images)
+//
+////pull image 
+//docker pull <imagename>
+//docker pull hello-world
+//docker pull openjdk
+//docker pull openjdk:18
+//
+////search image on docker-hub
+//docker search nginx
+//
+//==> run above images and convert in container
+//docker run python  (1st tarika)
+//docker ps -a  (check krta h konsa container run h konsa nhi)
+//docker run --name pythonContainer -d python (2nd tarika)
+//docker run --name myhello-world1 -it -d 74cc54e27dc4 (3rd tarika best)
+//
+//==> container ke andar jane ke liye
+//docker exec -it <container ID> (or) <containerName>
+//
+//==> container restart
+//docker restart <container ID>
+//
+//==> stop container 
+//docker stop <containerName> (or) <container ID>
+//
+//==> remove container
+//docker ps  (its showing stopped container)
+//docker rm <container ID>  (removed stopped contaner)
+//
+//==> some other comands
+//docker login
+//docker commit
+//docker push
+//docker copy
+//docker logs
+//docker volume
+//docker logout
+//
+//
+//==> remove images 
+//docker rmi openjdk
+//
+//
+//===============> abhi tak ham images ko docker hub se pull krke use kr rhe the ab ham docker images ko create karege
+//
+//
+//
+//
 //1.create springboot project
 //======================================================================> for production
 //2.create Dockerfile 
